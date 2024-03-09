@@ -13,7 +13,6 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    background-color: #1F2E35;
 
 }
 
@@ -21,4 +20,24 @@
     margin: 0 auto;
     padding-left: 140px;
     padding-right: 140px;
+    background-color: #1F2E35;
+
+}
+
+
+
+@media (max-width:648px) {
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+}
+
+@media (max-width:448px) {
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
 }

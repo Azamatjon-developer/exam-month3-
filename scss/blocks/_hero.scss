@@ -1,0 +1,93 @@
+.header_hero{
+    max-width: 1110px;
+
+    .header_hero_desc{
+        color: #fff;
+        padding-top: 50px;
+
+        .hero_sublitle{
+            text-align: center;
+        }
+        .hero_heading{
+            font-size: 40px;
+            text-align: center;
+            padding-top: 32px;
+            font-weight: 700;
+
+        }
+        .hero_text{
+            text-align: center;
+            font-size: 16px;
+            padding-top: 16px;
+        }
+    }
+    
+
+    .hero_boxes{
+        padding-top: 50px;
+        .hero_box{
+            background-color: #fff;
+            max-width: 322px;
+            text-align: center;
+            h2{
+                text-align: center;
+                font-weight: 700;
+                font-size: 24px;
+                padding-top: 24px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                text-align:center;
+                padding-top: 8px;
+
+            }
+
+            .hero_btn{
+                padding: 11px 20px;
+                border:none;
+                background-color: #02897A;
+                border-radius: 8px;
+                margin-top: 38px;
+                color:#fff;
+                
+
+            }
+
+            .hero_box_price{
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+
+                .zero{
+                    font-size: 76px;
+
+                }
+                
+
+                .box_zero{
+                    text-align: start;
+                    p{
+                        color:#AFAFAF;
+
+                    }
+
+                }
+
+                h3{
+                    color:#02897A;
+
+                }
+            }
+
+           
+        }
+
+    }
+    
+  
+}
+
