@@ -3,17 +3,13 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
-
     .nav_logo{
         display: flex;
         align-items: center;
         gap: 16px;
         color:#fff; 
         font-family: "poppins";
-
-
     }
-
     .nav_item{
         display: flex;
         align-items: center;
@@ -57,7 +53,6 @@ nav{
             border-radius: 5px;
             letter-spacing: 2px;
             font-family: "poppins";
-
         }
     }
 }
@@ -96,22 +91,13 @@ nav{
 
         }
      }
-    
   }
-
 }
-
 @media (max-width:968px) {
-
-   
     nav{
         justify-content: space-between;
     }
-
     .nav_item li{
         display: none;
     }
-
 }
-
-

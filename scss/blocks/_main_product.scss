@@ -1,5 +1,4 @@
 .main_product{
-        
     h2{
         font-size: 34px;
         margin-bottom: 52px;
@@ -8,27 +7,20 @@
         color:#fff;
         font-weight: 700;
         line-height: 51px;
-
     }
-
     .product_all{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         gap: 60px;
-
     }
-
     .product_left{
        .left_media{
         display: none;
        }
     }
-
-
     .product_right{
-
         p{
             font-weight: 400;
             color:#fff;
@@ -40,19 +32,14 @@
             display: flex;
             align-items: center;
             gap: 18px;
-
-
             h3{
                 font-weight: 600;
                 font-size: 24px;
                 color:#fff;
-
             }
         }
     }
-
 }
-
 
 @media (max-width:600px) {
     .main_product{
@@ -67,6 +54,4 @@
     }
 
     }
-
-    
 }

@@ -7,8 +7,6 @@
 @import "./blocks/info_media";
 @import "./blocks/footer";
 
-
-
 *{
     margin: 0;
     padding: 0;
@@ -21,24 +19,19 @@
     margin: 0 auto;
     padding-left: 140px;
     padding-right: 140px;
- 
 }
 body{
     background-color: #1F2E35;
 }
-
 @media (max-width:648px) {
     .container{
         padding-left: 30px;
         padding-right: 30px;
     }
-    
 }
-
 @media (max-width:448px) {
     .container{
         padding-left: 15px;
         padding-right: 15px;
     }
-    
 }
