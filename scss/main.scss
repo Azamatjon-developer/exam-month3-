@@ -3,6 +3,9 @@
 @import "./blocks/hero";
 @import "./blocks/main_price";
 @import "./blocks/main_product";
+@import "./blocks/answers";
+@import "./blocks/info_media";
+@import "./blocks/footer";
 
 
 
@@ -20,10 +23,11 @@
     margin: 0 auto;
     padding-left: 140px;
     padding-right: 140px;
-    background-color: #1F2E35;
-
+ 
 }
-
+body{
+    background-color: #1F2E35;
+}
 
 @media (max-width:648px) {
     .container{
