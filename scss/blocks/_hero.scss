@@ -5,9 +5,11 @@
     .header_hero_desc{
         color: #fff;
         padding-top: 50px;
+        font-family: "poppins";
+
 
         .hero_subtitle{
-
+           font-family: "poppins";
             text-align: center;
         }
         .hero_heading{
@@ -15,12 +17,16 @@
             text-align: center;
             padding-top: 32px;
             font-weight: 700;
+           font-family: "poppins";
+
 
         }
         .hero_text{
             text-align: center;
             font-size: 16px;
             padding-top: 16px;
+           font-family: "poppins";
+
         }
     }
     
@@ -33,6 +39,7 @@
         gap: 60px;
         flex-wrap: wrap;
         padding-top: 50px;
+        font-family: "poppins";
 
 
        
@@ -41,17 +48,23 @@
             width: 322px;
             text-align: center;
             border-radius: 8px;
+           font-family: "poppins";
+
             h2{
                 text-align: center;
                 font-weight: 700;
                 font-size: 24px;
                 padding-top: 24px;
+               font-family: "poppins";
+
             }
             p{
                 font-weight: 400;
                 font-size: 16px;
                 text-align:center;
                 padding-top: 8px;
+               font-family: "poppins";
+
             }
             .hero_btn{
                 padding: 11px 20px;
@@ -60,12 +73,16 @@
                 border-radius: 8px;
                 margin-top: 38px;
                 color:#fff;
+               font-family: "poppins";
+
             }
             .hero_box_price{
                 text-align: center;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+               font-family: "poppins";
+
                 .zero{
                     font-size: 76px;
 
@@ -74,12 +91,16 @@
                     text-align: start;
                     p{
                         color:#AFAFAF;
+                        font-family: "poppins";
+
 
                     }
 
                 }
 
                 h3{
+                    font-family: "poppins";
+
                     color:#02897A;
 
                 }
@@ -95,16 +116,22 @@
     text-align: center;
     border-radius: 8px;
     color:#fff;
+    font-family: "poppins";
+
     h2{
         text-align: center;
         font-weight: 700;
         font-size: 24px;
         padding-top: 24px;
+        font-family: "poppins";
+
     }
     p{
         font-weight: 400;
         font-size: 16px;
         text-align:center;
+        font-family: "poppins";
+
         padding-top: 8px;
     }
     .hero_btn{
@@ -112,6 +139,8 @@
         border:none;
         background-color: #fff;
         border-radius: 8px;
+        font-family: "poppins";
+
         margin: 38px 0px 32px;
         color:#02897A;
     }
@@ -120,6 +149,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: "poppins";
+
         .zero{
             font-size: 76px;
 
@@ -128,6 +159,8 @@
             color:#fff;
             p{
                 color:#fff;
+        font-family: "poppins";
+
 
             }
 
@@ -135,6 +168,8 @@
 
         h3{
             color:#fff;
+          font-family: "poppins";
+
 
         }
     }

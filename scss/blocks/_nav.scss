@@ -8,7 +8,9 @@ nav{
         display: flex;
         align-items: center;
         gap: 16px;
-        color:#fff;    
+        color:#fff; 
+        font-family: "poppins";
+
 
     }
 
@@ -16,15 +18,21 @@ nav{
         display: flex;
         align-items: center;
         gap: 16px;
+        font-family: "poppins";
+
 
         span{
             display: none;
             color:#fff;
             font-size: 28px;
+            font-family: "poppins";
+
         }
 
         a{
             color:#fff;
+            font-family: "poppins";
+
         }
 
         .nav_btn_sign_in{
@@ -35,6 +43,8 @@ nav{
             border-radius: 5px;
             cursor: pointer;
             letter-spacing: 2px;
+            font-family: "poppins";
+
 
         }
 
@@ -47,6 +57,8 @@ nav{
             cursor: pointer;
             border-radius: 5px;
             letter-spacing: 2px;
+            font-family: "poppins";
+
         }
     }
 }
