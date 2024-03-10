@@ -18,8 +18,9 @@ footer{
         gap: 150px;
 
         .footer_desc_items{
-            width: 150px;
+            width: 160px;
             color:#fff;
+            // border:  2px solid red;
 
             h3{
                 font-size: 20px;
@@ -38,11 +39,15 @@ footer{
             }
 
             input{
-                width: 200px;
+                width: 250px;
                 height: 35px;
+                border-radius: 10px ;
+               
+
             }
 
             .footer-btn{
+        
                 padding: 9px 15px;
                 background-color: #02897A;
                 color:#fff;
@@ -103,17 +108,22 @@ footer{
 @media (max-width:1112px) {
 
     footer{
-      
+        .footer-container{
+         
+        }
+    
 
         .footer-desc{
             gap: 60px;
         }
     }
 }
+
 @media (max-width:1000px) {
    
         .footer-container{
             flex-wrap: wrap;
+         
 
             .footer_top{
                 margin: 0 auto;
@@ -123,27 +133,60 @@ footer{
         
         
     }
-
-    @media (max-width:780px) {
-   
-        .footer-container{
-            flex-wrap: wrap;
-
-         
+    @media (max-width:900px) {
+        footer{
+            .footer-container{
+            
+            }
+        
+    
             .footer-desc{
-                flex-direction: column;
-               flex-wrap: wrap;
-
+                gap: 60px;
             }
-
-            .footer_desc_items{
-                flex-wrap: wrap;
-            }
-
         }
-        
-        
     }
 
+  
+    
+
+    @media (max-width:500px) {
+
+        footer{
+            .footer-desc{
+            flex-wrap: wrap;
+          
+          
+            .footer_desc_items{
+                width: 190px;
+                text-align: center;
+                h3{
+                    font-size: 18px;
+             
+                    padding-bottom: 14px;
+                  
+    
+    
+                }
+                p{
+                    padding-bottom: 22px;
+                    font-size: 16px;
+                  
+    
+                
+                }
+    
+            }
+       
+        }  }
+        
+    }
+    
+    
+    @media (max-width:375px) {
+        .info_media_right{
+            margin-left: -50px;
+            
+        }
+    }
 
 

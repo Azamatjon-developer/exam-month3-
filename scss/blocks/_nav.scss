@@ -2,7 +2,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0px;
+    padding: 20px 0px;
 
     .nav_logo{
         display: flex;
@@ -21,12 +21,11 @@ nav{
         font-family: "poppins";
 
 
+
         span{
             display: none;
             color:#fff;
             font-size: 28px;
-            font-family: "poppins";
-
         }
 
         a{
@@ -65,6 +64,8 @@ nav{
 
 .nav_item a:hover{
     color:#02897A;
+    border-radius: 8px;
+    border-bottom: 2px solid #fff;
     transition: all 0.5s linear;
 
 }
