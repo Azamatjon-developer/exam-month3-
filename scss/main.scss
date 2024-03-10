@@ -1,7 +1,8 @@
 @import "./blocks/header";
 @import "./blocks/nav";
 @import "./blocks/hero";
-
+@import "./blocks/main_price";
+@import "./blocks/main_product";
 
 
 
@@ -15,7 +16,6 @@
     text-decoration: none;
 
 }
-
 .container{
     margin: 0 auto;
     padding-left: 140px;
@@ -23,7 +23,6 @@
     background-color: #1F2E35;
 
 }
-
 
 
 @media (max-width:648px) {

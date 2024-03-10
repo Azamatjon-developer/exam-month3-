@@ -1,11 +1,13 @@
 .header_hero{
-    max-width: 1110px;
+    // border:  1px solid red;
+    // max-width: 1610px;
 
     .header_hero_desc{
         color: #fff;
         padding-top: 50px;
 
-        .hero_sublitle{
+        .hero_subtitle{
+
             text-align: center;
         }
         .hero_heading{
@@ -24,11 +26,21 @@
     
 
     .hero_boxes{
+        max-width:1120;
+        display: flex;
+        justify-content:center;
+        align-content: center;
+        gap: 60px;
+        flex-wrap: wrap;
         padding-top: 50px;
+
+
+       
         .hero_box{
             background-color: #fff;
-            max-width: 322px;
+            width: 322px;
             text-align: center;
+            border-radius: 8px;
             h2{
                 text-align: center;
                 font-weight: 700;
@@ -40,9 +52,7 @@
                 font-size: 16px;
                 text-align:center;
                 padding-top: 8px;
-
             }
-
             .hero_btn{
                 padding: 11px 20px;
                 border:none;
@@ -50,24 +60,16 @@
                 border-radius: 8px;
                 margin-top: 38px;
                 color:#fff;
-                
-
             }
-
             .hero_box_price{
                 text-align: center;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-
-
-
                 .zero{
                     font-size: 76px;
 
                 }
-                
-
                 .box_zero{
                     text-align: start;
                     p{
@@ -82,12 +84,61 @@
 
                 }
             }
+        }
+    }
+}
 
-           
+
+.box_blue{
+    background-color: #02897A;
+    width: 320px;
+    text-align: center;
+    border-radius: 8px;
+    color:#fff;
+    h2{
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        padding-top: 24px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 16px;
+        text-align:center;
+        padding-top: 8px;
+    }
+    .hero_btn{
+        padding: 11px 20px;
+        border:none;
+        background-color: #fff;
+        border-radius: 8px;
+        margin: 38px 0px 32px;
+        color:#02897A;
+    }
+    .hero_box_price{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .zero{
+            font-size: 76px;
+
+        }
+        .box_zero{
+            color:#fff;
+            p{
+                color:#fff;
+
+            }
+
         }
 
+        h3{
+            color:#fff;
+
+        }
     }
-    
-  
 }
+
+
 
