@@ -1,7 +1,4 @@
 .header_hero{
-    // border:  1px solid red;
-    // max-width: 1610px;
-
     .header_hero_desc{
         color: #fff;
         padding-top: 50px;
@@ -48,6 +45,7 @@
             width: 322px;
             text-align: center;
             border-radius: 8px;
+            padding-bottom: 20px;
            font-family: "poppins";
 
             h2{
@@ -71,7 +69,8 @@
                 border:none;
                 background-color: #02897A;
                 border-radius: 8px;
-                margin-top: 38px;
+                margin: 38px 0px 32px;
+
                 color:#fff;
                font-family: "poppins";
 
@@ -109,17 +108,6 @@
     }
 }
 
-//  .hero_boxes .hero_box:hover{
-//     background-color: #02897A;
-//     color:#fff;
-
-    
-   
-
-// }
-//  .hero_box:hover .zero{
-//     color: white;
-// }
 
 
 
